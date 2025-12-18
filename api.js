@@ -1,4 +1,4 @@
-export function fetchPost() {
+export const fetchPost = async (id) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             if (id === 1) {
